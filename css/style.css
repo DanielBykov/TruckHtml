@@ -516,3 +516,7 @@ footer .block.b4{
     border: none;
   }
   .footBtn:hover{color:#008bcb}
+
+  .newClass{
+    color: #fff;
+  }
