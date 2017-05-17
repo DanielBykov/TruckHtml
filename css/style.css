@@ -520,3 +520,7 @@ footer .block.b4{
   .newClass{
     color: #fff;
   }
+
+  .newClass > a{
+      color: #ccc;
+    }
