@@ -1,0 +1,22 @@
+{
+  "name": "truckhtml",
+  "version": "1.0.0",
+  "description": "Html5+CSS+Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielBykov/TruckHtml.git"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielBykov/TruckHtml/issues"
+  },
+  "homepage": "https://github.com/DanielBykov/TruckHtml#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
