@@ -112,18 +112,34 @@ body{
     opacity: 1; visibility: visible;
   }
 /* Slider */
-.main-slide{
-	background-image: url("../img/slide-3-1920x597.jpg");
-	/* height: 597px; */
+ul#main-slider{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 443px;
+  width: 100%;
+  transition: .5s ease-out;
+}
+ul#main-slider > li.item{
 	background-size: cover;
 	background-position: center center;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 443px;
 }
-.main-slide .captoin {
+.img-3{background-image: url("../img/slide-3-1920x597.jpg")}
+.img-4{background-image: url("../img/slide-4-1920x597.jpg")}
+.img-5{background-image: url("../img/slide-5-1920x597.jpg")}
+.img-6{background-image: url("../img/slide-6-1920x597.jpg")}
+
+
+ul#main-slider > li.item .captoin {
 	margin: auto;
 	width: 80%;
-  padding: 40px 0;
+  padding: 90px 0;
 }
-.main-slide h1 {
+ul#main-slider > li.item h1 {
 	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -132,15 +148,15 @@ body{
 	font-weight: 700;
 	margin-bottom: 0;
 }
-.main-slide p{
+ul#main-slider > li.item p{
   text-align: center;
   color: #ffffff;
   overflow: hidden;
   font-size: 22px;
   font-weight: 400;
 }
-.main-slide .buttons{text-align: center}
-.main-slide a {
+ul#main-slider > li.item .buttons{text-align: center}
+ul#main-slider > li.item a {
   display: inline-block;
 	border-radius: 20px;
 	border: 1px solid #ffffff;
@@ -150,22 +166,22 @@ body{
   text-decoration: none;
   transition: .3s ease-out;
 }
-.main-slide .butn-transparent{
+ul#main-slider > li.item .butn-transparent{
   background-color: rgb(0,0,0,0);
   color: #ffffff;
   border-color: #ffffff;
 }
-.main-slide .butn-transparent:hover{
+ul#main-slider > li.item .butn-transparent:hover{
   color: #03a9f5;
   border-color: #ffffff;
   background-color: #ffffff;
 }
-.main-slide .butn-white{
+ul#main-slider > li.item .butn-white{
   color: #03a9f5;
   border-color: #ffffff;
   background-color: #ffffff;
 }
-.main-slide .butn-white:hover{
+ul#main-slider > li.item .butn-white:hover{
   color: #ffffff;
   background-color: #03a9f5;
   border-color: #03a9f5;
@@ -193,10 +209,10 @@ body{
   transition: .3s ease-out;
   cursor: pointer;
 }
-.three-sub-slides .subslide-1{background-image: url(../img/slide-3-thumb-479x231.jpg)}
-.three-sub-slides .subslide-2{background-image: url(../img/slide-3-thumb-479x231.jpg)}
 .three-sub-slides .subslide-3{background-image: url(../img/slide-3-thumb-479x231.jpg)}
 .three-sub-slides .subslide-4{background-image: url(../img/slide-3-thumb-479x231.jpg)}
+.three-sub-slides .subslide-5{background-image: url(../img/slide-3-thumb-479x231.jpg)}
+.three-sub-slides .subslide-6{background-image: url(../img/slide-3-thumb-479x231.jpg)}
 #mainpage-welcome{}
 #mainpage-welcome h2{
 
@@ -501,7 +517,7 @@ footer .block.b4{
     border-color: #f5f5f5;
     background-color: #1c1c1c;
     border-radius: 25px;
-    padding: 0 0;
+    padding: 12px;
         font-weight: 700;
         line-height: 16px;
   }
